@@ -1,0 +1,6 @@
+﻿  FileName.cpp
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\12m4d class\FileName.cpp(24,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\12m4d class\FileName.cpp(91,9): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\12m4d class\FileName.cpp(91,9): warning C4309: '=': 상수 값이 잘립니다.
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\12m4d class\FileName.cpp(79,1): error C4700: 초기화되지 않은 'k' 지역 변수를 사용했습니다.
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\12m4d class\FileName.cpp(79,1): error C4700: 초기화되지 않은 'l' 지역 변수를 사용했습니다.

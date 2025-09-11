@@ -1,0 +1,19 @@
+ SQL쿼리 만들기
+
+테이블 만들기 쿼리
+create table 테이블 이름(
+    컬럼이름 컬럼형식 프라이머리키 or 외래키
+    foreign key(컬럼이름) reference 테이블 이름(컬럼이름)
+    .
+    .
+    .
+ 프라이머리키(컬럼이름, 컬럼이름) # 프라이머리 여러개 줄 때
+)
+
+
+constraint 컬럼 이름
+
+
+정규화란 데이터베이스에서 중복을 제거하는 것을 의미
+
+CRUD(Create Read Update Delete)

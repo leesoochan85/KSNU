@@ -1,0 +1,5 @@
+개발자 로드맵  : *표준 html5(html구조, css구조, js->객체지향 js -> python)
+웹 풀스택
+
+'*표준 html5'의 강의 노트(tutorial) : 참조사전 1 => https://www.w3schools.com/ 
+'*표준 html5'의 강의 노트(tutorial) : 참조사전 2 => mdn

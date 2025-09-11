@@ -1,0 +1,35 @@
+CREATE TABLE `수강` (
+  `학번` varchar(20) NOT NULL,
+  `과목번호` varchar(20) NOT NULL,
+  `신청날짜` date DEFAULT NULL,
+  `중간성적` int(11) DEFAULT NULL,
+  `기말성적` int(11) DEFAULT NULL,
+  `평가학점` char(1) DEFAULT NULL,
+  PRIMARY KEY (`학번`,`과목번호`),  
+  CONSTRAINT `classes_ibfk_1` FOREIGN KEY (`학번`) REFERENCES `학생` (`학번`),
+  CONSTRAINT `classes_ibfk_2` FOREIGN KEY (`과목번호`) REFERENCES `과목` (`과목번호`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+CREATE TABLE `학생` (
+  `학번` varchar(20) NOT NULL,
+  `이름` varchar(20) DEFAULT NULL,
+  `주소` varchar(20) DEFAULT NULL,
+  `학년` int(11) DEFAULT NULL,
+  `나이` int(11) DEFAULT NULL,
+  `성별` char(1) DEFAULT NULL,
+  `휴대폰번호` varchar(20) DEFAULT NULL,
+  `소속학과` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`학번`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+CREATE TABLE `과목` (
+  `과목번호` varchar(20) NOT NULL,
+  `이름` varchar(20) DEFAULT NULL,
+  `강의실` varchar(20) DEFAULT NULL,
+  `개설학과` varchar(50) DEFAULT NULL,
+  `시수` int(11) DEFAULT NULL,
+  PRIMARY KEY (`과목번호`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+

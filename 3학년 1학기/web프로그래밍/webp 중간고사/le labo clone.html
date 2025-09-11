@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            웹 프로그래밍 사이트
+        </title>
+        <style>
+            body{
+                font-family:'Arial',sans-serif;
+                background-color: #f5f5f5;
+                margin:0;
+                padding: 0;
+                color: #333;
+            }
+
+            .header0{
+                background-color: #333;
+                color: #fff;
+                padding:20px;
+                text-align:center;
+            }
+
+            .header1{
+                background: color #333;
+                color: #fff;
+                padding:20px;
+                text-align:right;
+            }
+            
+            .header2{
+                background: color #333;
+                color: #fff;
+                padding:20px;
+                text-align:left;
+            }
+
+            .header0 a,
+            .header1 nav a,
+            .header2 nav a{
+                color:#fff;
+                text-decoration:none;
+                margin: 0 10px;
+            }
+
+            .header0 a:hover,
+            .header1 nav a:hover,
+            .header2 nav a:hover{
+                color:#ffcc00;
+            }
+
+            section{
+                padding: 20px;
+                margin: 10px auto;
+                width:80%;
+                background-color:#fff;
+                box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+                border-radius:8px;
+                color:#333;
+            }
+            
+            section h2{
+                color: #333;
+                border-bottom:2px solid #ffcc00;
+                padding-bottom:5px;
+                margin-bottom:10px;
+            }
+            .product-card{
+                display: flex;
+                align-items: center;
+                border:1px solid#ddd;
+                padding:15px;
+                margin-bottom:15px;
+                border-radius:8px;
+                background-color:#fafafa;
+            }
+
+            .product-card img {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-right: 15px;
+            }
+
+            .product-card h3{
+                margin-top: 0;
+            }
+
+            .product-card a{
+                display: inline-block;
+                background-color: #ffcc00;
+                color: #333;
+                padding: 5px 10px;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            .product-card a:hover{
+                background-color: #333;
+                color:#fff;
+            }
+            .cart-section,.order-section{
+                background-color: #fffbe6;
+            }
+            footer{
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding:10px;
+                margin-top:20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header class="header0">
+            <h1><a href="/home">Soochan</a></h1>
+        </header0>
+        <hr>
+
+        <header class="header1">
+            <nav>               
+                <a href="#home">홈</a>
+                <a href="#products">목록</a>
+                <a href="#cart">장바구니</a>
+                <a href="#order">주문하기</a>         
+            </nav>
+        </header1>
+        <hr>
+
+        <header class="header2">
+            <nav>               
+                <a href="#outer">아우터</a>
+                <a href="#pants">팬츠</a>
+                <a href="#Tshirts">티셔츠</a>
+                <a href="#accessory">악세사리</a>         
+            </nav>
+        </header2>
+        <hr>
+
+        <!--section id="home">
+            <h2>Fake Page</h2>
+            <p>여기서는 옷을 살 수 없어요.</p>
+        </section-->
+
+        <section id="products">
+            <h2>Main List</h2>
+
+            <div class="product-card">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/473715/item/goods_03_473715_3x4.jpg?width=400" alt="스웨트와이드팬츠">
+                <div>
+                    <h3>1. 스웨트 와이드 팬츠</h3>
+                    <p>가격: 49,900원</p>
+                    <a href="#product1">자세히보기</a>
+                </div>
+            
+                     
+            
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472852/item/goods_67_472852_3x4.jpg?width=300" alt="와이드파라수트팬츠">
+                <div>
+                    <h3>2. 와이드 파라수트 팬츠 </h3>
+                    <p>가격: 45,000원</p>
+                    <a href="#product2">자세히보기</a>
+                </div>
+            
+            
+                <img src="https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/478758/sub/krgoods_478758_sub13_3x4.jpg?width=400" alt="더블니워크팬츠">
+                <div>
+                    <h3>3. 더블 니워크 팬츠</h3>
+                    <p>가격: 55,000원</p>
+                    <a href="#product3">자세히 보기</a>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="cart" class="cart-section">
+            <h2>장바구니</h2>
+            <p>현재 장바구니에 담긴 상품이 없습니다.</p>
+            <a href="/cart"><button>장바구니 보기</button></a>
+        </section>
+
+
+        <section id="order" class="order-section">
+            <h2>주문하기</h2>
+            <form action="#" method="post">
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name"><br>          
+                
+                <label for="address">주소:</label>
+                <input typ="text" id="address" name="address"><br>
+
+                <label for="payment">결제 방법:</label>
+                <select id="payment" name="payment">
+                    <option value="credit">신용카드</option>
+                    <option value="bank">무통장입금</option>
+                    <option value="cash">현금 결제</option>
+                </select><br>
+
+                <input type="submit" value="주문하기">
+            </form>
+        </section>
+
+        <footer><p>&copy;2025 옷 판매 웹페이지</p></footer>
+    </body>
+</html>

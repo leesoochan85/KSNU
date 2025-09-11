@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leesoochan\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\c\u002B\u002B \uC720\uD23D\\12m3d class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2B34D-F38F-4DAD-8CDD-80823B6143EA}|12m3d class.vcxproj|C:\\Users\\leesoochan\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\c\u002B\u002B \uC720\uD23D\\12m3d class\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5BB2B34D-F38F-4DAD-8CDD-80823B6143EA}|12m3d class.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\leesoochan\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\c\u002B\u002B \uC720\uD23D\\12m3d class\\FileName.cpp",
+              "RelativeDocumentMoniker": "FileName.cpp",
+              "ToolTip": "C:\\Users\\leesoochan\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\c\u002B\u002B \uC720\uD23D\\12m3d class\\FileName.cpp",
+              "RelativeToolTip": "FileName.cpp",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAkwH0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T05:19:00.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

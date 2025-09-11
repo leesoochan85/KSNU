@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\11m13d class\FileName.cpp(49,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\11m13d class\FileName.cpp(49,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  11m13d class.vcxproj -> C:\Users\leesoochan\OneDrive\바탕 화면\c++ 유툽\11m13d class\x64\Debug\11m13d class.exe
