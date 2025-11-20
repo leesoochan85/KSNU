@@ -2,3 +2,17 @@
 3학년 1학기/db/DB_TeamProject/
 
 3학년 1학기/db/DB_TeamProject/
+# Visual Studio / C++ 캐시
+.vs/
+*.ipch
+*.obj
+*.pdb
+*.pch
+*.ilk
+*.idb
+*.VC.db
+*.VC.opendb
+Debug/
+Release/
+x64/
+x86/

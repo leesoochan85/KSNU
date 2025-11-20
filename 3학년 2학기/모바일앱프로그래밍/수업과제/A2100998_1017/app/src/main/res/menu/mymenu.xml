@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/blue"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="파랑색" />
+    <item
+        android:id="@+id/green"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="초록색" />
+    <item
+        android:id="@+id/red"
+        android:icon="@android:drawable/ic_delete"
+        android:title="빨강색" />
+    <item android:title="서브메뉴" >
+        <menu >
+            <item
+                android:id="@+id/sub1"
+                android:title="서브메뉴1" />
+            <item
+                android:id="@+id/sub2"
+                android:title="서브메뉴2" />
+        </menu>
+    </item>
+</menu>

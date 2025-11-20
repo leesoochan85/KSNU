@@ -3,3 +3,19 @@
 
 '*표준 html5'의 강의 노트(tutorial) : 참조사전 1 => https://www.w3schools.com/ 
 '*표준 html5'의 강의 노트(tutorial) : 참조사전 2 => mdn
+
+
+필독서 : 이것이 리눅스다, 이것이 mysql이다 (한빛 미디어)
+
+html구조 ,css구조(1학기), js구조 (2학기)
+
+home server(YouTube) & DNS(YouTube) & web machanics (PPT) 많이 헷갈릴 수 있음.
+
+
+7) 코딩 수업 - 생활 코딩
+   ➀ WEB1- HTML & Internet 생활코딩 1 / 28
+   ➁ WEB2-CSS 생활코딩 1 / 16
+   ➂ WEB2-JavaScript 생활코딩 1 / 38
+   ➃ WEB2-Home server 생활코딩 1 / 10
+   ➄ WEB2-Domain Name System 생활코딩 1 / 14
+   ➅ WEB2 Python 생활코딩 1 / 43		
